@@ -31,6 +31,6 @@ public class Buku{
         this.penulis = penulis;
     }
     public void view(){
-        System.out.println("buku ini berjudul "+ this.getJudul()+ " yang ditulis oleh "+ this.getPenulis()+" dan diterbitkan pada tahun " + this.getTahunTerbit());
+        System.out.println("buku berjudul "+ this.getJudul()+ " ditulis oleh "+ this.getPenulis()+" diterbitkan tahun " + this.getTahunTerbit());
     }
 }
