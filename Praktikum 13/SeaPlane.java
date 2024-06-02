@@ -19,6 +19,17 @@ public class Seaplane extends Airplane{
     public double calcTripDistance(){
         return this.maxLoad * 3;
     }
+
+    public void takeOff(){
+        System.out.println("Seaplane Take Off");
+    }
+
+    public void land(){
+        System.out.println("Seaplane landing");
+    }
+    public void fly(){
+        System.out.println("seaplane fly");
+    }
   
     public String toString(){
         return "SeaPlane dapat take-off dan mendarat di perairan laut";
