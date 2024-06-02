@@ -18,6 +18,15 @@ public class Helicopter extends Airplane{
     public double calcTripDistance(){
         return this.maxLoad * 2;
     }
+    public void takeOff(){
+        System.out.println("Helicopter Take Off");
+    }
+    public void land(){
+        System.out.println("Helicopter landing");
+    }
+    public void fly(){
+        System.out.println("Helicopter fly");
+    }
 
     public String toString(){
         return "Helicopter hanya memerlukan landasan kecil";
